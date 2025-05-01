@@ -1,6 +1,5 @@
 from datetime import datetime
 
-from django.core.serializers import get_serializer
 from django.db.models import F, Count
 from rest_framework import viewsets, mixins, status
 from rest_framework.authentication import TokenAuthentication
